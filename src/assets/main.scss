@@ -1,0 +1,43 @@
+@use '~bootstrap/scss/bootstrap';
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@verdana-font {
+    font-family: verdana;
+    src: url(Arkivarien/src/assets/VERDANAI.TTF);
+}
+
+.score-text {
+    color: rgb(20, 20, 20);
+    font-size: 1.5rem;
+}
+
+.background {
+    background-color: #b9a255;
+}
+
+.foreground {
+    background-color: #d6ba63;
+}
+
+.star-array {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: #b9a255;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}

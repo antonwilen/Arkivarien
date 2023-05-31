@@ -1,0 +1,15 @@
+.objectImage {
+  width: 25rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
